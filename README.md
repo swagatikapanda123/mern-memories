@@ -18,3 +18,4 @@ npm install -g nodemon
 ```cmd 
 nodemon start
 ```
+5. port for backend is 5000, go to ```localhost:5000``` 
