@@ -34,3 +34,9 @@ npm install
 npm start
 ```
 Port for frontend is 3000, go to ```localhost:3000``` on the Browser
+
+## Stack used to build this app 
+1. MongoDB
+2. Express
+3. React
+4. NodeJS
