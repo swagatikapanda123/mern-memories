@@ -6,6 +6,7 @@ import { getPosts } from './actions/posts';
 //import memories from './images/memories.jpg';
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
+import Login from './components/Auth/Login';
 import useStyles from './styles';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography className={classes.heading} style={{color:'black'}}  variant="h2" align="center">Memories</Typography>
         {/* <img className={classes.image} src={memories} alt="memories" height="60" /> */}
+        < Login />
       </AppBar>
       <Grow in>
         <Container>
